@@ -10,17 +10,17 @@ var url;
 
 const STAY_DOWN = 250;
 var ding_up = function() {
-	$("#ding").attr("src", "assets/bell_up.svg");
+	$("#ding").attr("src", "bell_up.svg");
 }
 var ding_down = function() {
-	$("#ding").attr("src", "assets/bell_down.svg");
+	$("#ding").attr("src", "bell_down.svg");
 	setTimeout(ding_up, STAY_DOWN);
 }
 var biscuits_up = function() {
-	$("#biscuits").attr("src", "assets/button_up.svg");
+	$("#biscuits").attr("src", "button_up.svg");
 }
 var biscuits_down = function() {
-	$("#biscuits").attr("src", "assets/button_down.svg");
+	$("#biscuits").attr("src", "button_down.svg");
 	setTimeout(biscuits_up, STAY_DOWN);
 }
 
