@@ -58,11 +58,11 @@ $(document).on('click','.decrement',function(){
 
 
 $("#ding").click(function(){
-	$.post(url, {"content": ";ding"})
+	$.post(url, {"content": ";;;ding"})
 	ding_down();
 });
 
 $("#biscuits").click(function(){
-	$.post(url, {"content": ";biscuits"})
+	$.post(url, {"content": ";;;biscuits"})
 	biscuits_down();
 });
