@@ -1,0 +1,40 @@
+.score {
+	border: 3px dotted gray;
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+}
+.score > span {
+	font-family: monospace;
+	font-size: 5em;
+	border: 3px solid black;
+	border-radius: 5%;
+	background-color: gray;
+}
+.score > .number {
+	background-color: white;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.score > .increment, .score > .decrement {
+	user-select: none;
+}
+.score > .name {
+	margin-top: 0.5em;
+	width: 100%;
+}
+
+#scores_table {
+	border-spacing: 8px;
+}
+
+img {
+	width: 20vw;
+	border: 2px solid white;
+}
+img:hover {
+	border: 2px solid black;
+}
+
+.increment:hover, .decrement:hover {
+	background-color: lightgray;
+}
